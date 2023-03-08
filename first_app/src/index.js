@@ -31,8 +31,13 @@ const header = (
 const technologies = ['HTML', 'CSS', 'JavaScript']
 const formattedTechs = technologies.map((tech) => <li key={tech}>{tech}</li>)
 
+// Main CSS styling
+const mainStyles = {
+  backgroundColor: '#F3F0F5',
+}
+
 const main = (
-  <main>
+  <main style={mainStyles}>
     <p>Prerequisites to get start with React.js</p>
     <ul>
       {formattedTechs}
