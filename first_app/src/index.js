@@ -15,6 +15,8 @@ const header = (
     <h1>Welcome to 30 Days of {tech}</h1>
     <Title />
     <h3>JavaScript Library</h3>
+    <p>Chris Guerrero</p>
+    <small>March 7, 2023</small>
   </header>
 )
 
