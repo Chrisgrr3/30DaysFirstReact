@@ -43,6 +43,7 @@ const main = (
     <ul>
       {formattedTechs}
     </ul>
+    <Image />
   </main>
 )
 
@@ -68,18 +69,20 @@ const app = (
   </div>
 )
 
-const image = (
-  <div>
-    <img
-      src={chrisImage}
-      alt='Chris'
-      style={{
-        width: '300px',
-        height: '300px',
-        borderRadius: '15px'
-      }}
-    />
-  </div>
-)
+function Image() {
+  return (
+    <div>
+      <img
+        src={chrisImage}
+        alt='Chris'
+        style={{
+          width: '300px',
+          height: '300px',
+          borderRadius: '15px',
+        }}
+      />
+    </div>
+  )
+}
 
-ReactDOM.render(image, rootElement)
+ReactDOM.render(app, rootElement)
