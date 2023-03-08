@@ -45,9 +45,14 @@ const main = (
   </main>
 )
 
+// Footer CSS styling
+const footerStyles = {
+  backgroundColor: '#61DBFB',
+}
+
 function Footer() {
   return (
-    <footer>
+    <footer style={footerStyles}>
       <p>How does a website kick a soccer ball?</p>
       <small>Using its footer!</small>
     </footer>
