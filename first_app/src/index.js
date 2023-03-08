@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import chrisImage from './images/20200802_191518936_iOS.heic'
+import chrisImage from './images/20200802_191518936_iOS.png'
 
 const jsxElement = <h1>This is a JSX element.</h1>
 const rootElement = document.getElementById('root')
@@ -68,4 +68,18 @@ const app = (
   </div>
 )
 
-ReactDOM.render(app, rootElement)
+const image = (
+  <div>
+    <img
+      src={chrisImage}
+      alt='Chris'
+      style={{
+        width: '300px',
+        height: '300px',
+        borderRadius: '15px'
+      }}
+    />
+  </div>
+)
+
+ReactDOM.render(image, rootElement)
