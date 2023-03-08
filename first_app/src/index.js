@@ -60,7 +60,7 @@ function Footer() {
 }
 
 const app = (
-  <div>
+  <div className='app'>
     {header}
     {main}
     <Footer />
