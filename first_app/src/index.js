@@ -10,8 +10,16 @@ function Title() {
   return <h2>Getting Started with {tech}</h2>
 };
 
+// Header CSS styling
+const headerStyles = {
+  backgroundColor: '#61DBFB',
+  fontFamily: 'Helvetica Neue',
+  padding: 25,
+  lineHeight: 1.5,
+}
+
 const header = (
-  <header>
+  <header style={headerStyles}>
     <h1>Welcome to 30 Days of {tech}</h1>
     <Title />
     <h3>JavaScript Library</h3>
